@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.socialLink {
+    color: black;
+}
+
+.project-tile {
+    padding: 25px;
+    margin: 0;
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 400px;
+
+}
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #55BE85;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navUl {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navUl li {
+    margin: 24.75px;
+    padding: 15px;
+}
+
+#headerImg {
+    height: 100px;
+    width: 100px;
+    margin: 10px auto 0 20px;
+}
+
+#welcome-section {
+    background-color: #55BE85;
+    height: 90vh;
+    padding-top: 200px;
+}
+
+#downArrow {
+    margin-top: 160px;
+}
+
+#contact {
+    height: 200px;
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+#contactUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contactUl li {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contactUl li a {
+    text-decoration: none;
+}
+
+#projectHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+#projectHolder li {
+    margin: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+figure {
+    border: 1px solid black;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    border-top: none;
+    padding: 5px;
+}
+
+@media (max-width: 650px) {
+
+    .nav-link {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 570px){
+    #navUl {
+        align-items: center;
+    }
+
+    #navUl li {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: .9em;
+    }
+}
+
