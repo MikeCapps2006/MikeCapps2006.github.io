@@ -32,6 +32,8 @@ html, body {
     height: 100%;
     max-height: 400px;
     max-width: 400px;
+    width: 400px;
+    height: 165.25px;
 
 }
 
@@ -67,8 +69,8 @@ html, body {
 
 #welcome-section {
     background-color: #55BE85;
-    height: 90vh;
-    padding-top: 200px;
+    min-height: 55vh;
+    padding-top: 45vh;
 }
 
 #downArrow {
